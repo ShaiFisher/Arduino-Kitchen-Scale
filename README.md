@@ -3,10 +3,10 @@ Kitchen Scale for up to 2kg
 
 Main Parts:
 
-  Arduino
-  Weight sensor + HX711 module
-  4-digits 7-segments display
-  Push Button
+  * Arduino
+  * Weight sensor + HX711 module
+  * 4-digits 7-segments display
+  * Push Button
   
   Wires:
   
