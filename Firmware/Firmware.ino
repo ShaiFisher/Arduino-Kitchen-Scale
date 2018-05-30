@@ -29,14 +29,12 @@
 
 // Include Libraries
 #include "Arduino.h"
-#include "Potentiometer.h"
 #include "SevSeg.h"
 #include "hx711.h"
 #include "Button.h"
 
 // Pin Definitions
 #define BUTTON_PIN A2
-#define POTENTIOMETER_PIN_SIG	A3
 #define SCALE_SCK  A0
 #define SCALE_DT  A1
 #define SEG7_A	2
@@ -58,7 +56,6 @@
 int temp_grams_offset = 0;
 
 // object initialization
-Potentiometer potentiometer(POTENTIOMETER_PIN_SIG);
 SevSeg sevseg; //Initiate a seven segment controller object
 Hx711 scale(SCALE_DT, SCALE_SCK);
 Button pushButton(BUTTON_PIN);
